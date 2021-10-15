@@ -1,4 +1,4 @@
-# Memory-LessMomentumQuasi-Newton
+# Memory-Less Momentum quasi-Newton
 
 This is the package for the MLMoQ algorithm based on the paper On the study of Memory-Less quasi-Newton Method with Momentum Term for Neural Network Training by S. Mahboubi, R. Yamatomi, Indrapriyadarsini, S., H. Ninomiya, and H. Asai.
 
