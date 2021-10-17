@@ -69,11 +69,13 @@ class NullContextmanager(object):
         return False
 
 class MLQN(keras.optimizers.Optimizer):
-    """ Optimizer that implements the ML_MoQ algorithm
+    """ Optimizer that implements the MLQN algorithm
     
-    ML_QN(Memorry-Less Quasi-Newton Method) solves the problem of QN(Quasi-Newton method)
+    Memorry-Less Quasi-Newton (MLQN) Method solves the problem of quasi-Newton (QN) method
     that it requires an approximate matrix of Hessian, which makes it un suitable for the training
     of large-scale, by learning without the storage of matrix.
+    This optimizer was implemented for comparing MLMoQ on Tensorflow and published on 17 October 2021.
+    
     """
     def __init__(self, lr = 1.0, globalconve_term = True, apply_theta = False, name = "MLQN", **kwargs):
         """
