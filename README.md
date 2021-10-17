@@ -8,4 +8,4 @@ MLMoQ takes the form of an Optimizer object that can be imported an used as any 
 
 * [Tensorflow Version](https://github.com/ninomiyalab/Memory_Less_Momentum_Quasi_Newton/blob/a7d42ae35b19e6906a4dbc6e58482822c65b049c/MLMoQ.py)
 
-Contact: [Shahrzad Mahboubi]( )  
+Contact: [Shahrzad Mahboubi](https://github.com/SM-1001)  
