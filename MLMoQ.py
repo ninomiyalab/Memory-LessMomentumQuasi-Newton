@@ -273,7 +273,7 @@ class MLMoQ(keras.optimizers.Optimizer):
         tmp_SY = 0.0
         tmp_YY = 0.0
         
-        if self.amendment:
+        if self.globalconve_term:
             for grad, var in grads_and_vars:
                 one_past_grad = self.get_slot(var, "one_past_grad")
                 two_past_grad = self.get_slot(var, "two_past_grad")
