@@ -86,7 +86,7 @@ class MLMoQ(keras.optimizers.Optimizer):
             adaptive_mu : flag of adaptive mu. If adaptive_mu equals True, mu will be updated in each iteration if conditions are met. Defaults to True.
             mu : momentum power. Defaults to 0.9. If adaptive_mu equals True, its no mean. Defaults to 0.9.
             max_mu : max value of momentum power. If adaptive_mu equals True, it works. Defaults to 0.999.
-            globalconve_term : flag of global convergence term of Y. If amendment equals True, global convergence term of Y will work. More details to follow. Defaults to False
+            globalconve_term : flag of global convergence term of Y. If globalconve_term equals True, global convergence term of Y will work. More details to follow. Defaults to True
             apply_theta : flag of limits the range of theta. If apply_theta equals True, the range of theta will be limited. Defaults to False
         
         """
