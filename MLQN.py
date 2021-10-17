@@ -79,7 +79,7 @@ class MLQN(keras.optimizers.Optimizer):
         """
         Args:
             lr : larning rate. Defaults to 1.0.
-            globalconve_term : flag of global convergence term of Y. If globalconve_term equals True, global convergence term of Y will work. More details to follow. Defaults to False
+            globalconve_term : flag of global convergence term of Y. If globalconve_term equals True, global convergence term of Y will work. More details to follow. Defaults to True
             apply_theta : flag of limits the range of theta. If apply_theta equals True, the range of theta will be limited. Defaults to False
         
         """
