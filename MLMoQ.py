@@ -71,12 +71,9 @@ class NullContextmanager(object):
 class MLMoQ(keras.optimizers.Optimizer):
     """ Optimizer that implements the MLMoQ algorithm
     
-    MLQN(Memorry-Less Quasi-Newton Method), the previous study of MLMoQ, 
-    solves the problem of QN(Quasi-Newton method) that it requires an app-
-    roximate matrix of Hessian, which makes it un suitable for the training
-    of large-scale, by learning without the storage of matrix.
-    This work, ML_MoQ(Memorry Less Momentum Quasi-Newton Method) is 
-    acceraleted ML_QN by introducing momentum term.
+    Memory-Less quasi-Newton (MLQN) is accelerated by momentum term as Memory-Less Momentum QN (MLMoQ).
+    This MLMoQ version can only train by full-batch strategy.
+    
     """
     def __init__(self, lr = 1.0, adaptive_mu = True, mu = 0.9, max_mu = 0.999, globalconve_term = True, apply_theta = False, name = "MLMoQ", **kwargs):
         
