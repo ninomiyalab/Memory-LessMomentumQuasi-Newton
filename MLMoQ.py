@@ -73,6 +73,7 @@ class MLMoQ(keras.optimizers.Optimizer):
     
     Memory-Less quasi-Newton (MLQN) is accelerated by momentum term as Memory-Less Momentum QN (MLMoQ).
     This MLMoQ version can only train by full-batch strategy.
+    This optimizer was published on 17 October 2021. 
     
     """
     def __init__(self, lr = 1.0, adaptive_mu = True, mu = 0.9, max_mu = 0.999, globalconve_term = True, apply_theta = False, name = "MLMoQ", **kwargs):
