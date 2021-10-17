@@ -6,6 +6,6 @@ It is currently available in Tensorflow 2 versions is provided but not updated a
 
 MLMoQ takes the form of an Optimizer object that can be imported an used as any other optimizer (SGD, ADAM, etc.). 28x28 MNIST examples and explanations are provided.
 
-* [Tensorflow Version](https://github.com/ninomiyalab/Memory_Less_Momentum_Quasi_Newton/MLMoQ.py)
+* [Tensorflow Version](https://github.com/ninomiyalab/Memory_Less_Momentum_Quasi_Newton/blob/a7d42ae35b19e6906a4dbc6e58482822c65b049c/MLMoQ.py)
 
 Contact: [Shahrzad Mahboubi]( )  
